@@ -1,3 +1,36 @@
-p {
-    color: blue;
+.banner {
+    background-color: rgb(91, 91, 199);
+    width: auto;
+    height: 400px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive, "Arial", sans-serif;
+}
+
+.recipe-links {
+    background-color: slategrey;
+    text-align: center;
+    height: 400px;
+}
+a {
+    font-family: "verdana", sans-serif;
+    font-size: 15px;
+}
+a:link {
+    background-color: rgb(219, 221, 120);
+    color: rgb(18, 31, 202);
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+a:visited {
+    color:rgb(201, 66, 77);
+}
+
+a:hover {
+    color: rgb(238, 83, 238);
+}
+
+a:active {
+    color: rgb(37, 202, 4);
 }
